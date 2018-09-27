@@ -12,3 +12,7 @@
 */
 
 Route::get("/", "HomeController@index");
+
+
+Route::resource("books", "BookController", ["only"=>"index"]);
+
