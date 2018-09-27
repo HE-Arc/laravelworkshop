@@ -1,7 +1,8 @@
 @extends("layout.app")
 @section("content")
 
-<table style="border: 1px black solid" border="1">
+<div class="table-responsive">
+<table class="table">
 
 <tr><td>name</td><td>isbn</td><td>pages</td></tr>
 
@@ -12,5 +13,6 @@
 @endforeach
 
 </table>
+</div>
 
 @endsection
